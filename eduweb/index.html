@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tag
+  -->
+    <title>EduWeb - The Best Program to Enroll for Exchange</title>
+    <meta
+      name="title"
+      content="EduWeb - The Best Program to Enroll for Exchange"
+    />
+    <meta
+      name="description"
+      content="This is an education html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/login.html">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.svg" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-2.png" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="162"
+            height="50"
+            alt="EduWeb logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="162"
+                height="50"
+                alt="EduWeb logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Features</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="/login.html" class="navbar-link" data-nav-link>Login</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.svg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 section-title">
+                Improving <span class="span">Access </span> to Study Materials
+              </h1>
+
+              <p class="hero-text">
+                EduWeb helps you create custom study guides built with natural
+                language processing to give your brain the relief from
+                repetitive material.
+              </p>
+
+              <a href="login.html" class="btn has-before">
+                <span class="span">Get Started</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <div class="img-holder one" style="--width: 270; --height: 300">
+                <img
+                  src="./assets/images/hero-banner-1.jpg"
+                  width="270"
+                  height="300"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <div class="img-holder two" style="--width: 240; --height: 370">
+                <img
+                  src="./assets/images/hero-banner-2.jpg"
+                  width="240"
+                  height="370"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <img
+                src="./assets/images/hero-shape-2.png"
+                width="622"
+                height="551"
+                alt=""
+                class="shape hero-shape-2"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #CATEGORY
+      -->
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back top top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
